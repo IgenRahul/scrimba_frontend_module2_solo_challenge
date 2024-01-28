@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Naruto";
+  src: url("fonts/njnaruto.ttf");
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  color: #1d3557;
+  text-align: center;
+  margin: 0;
+  font-family: "Naruto", sans-serif;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.img-round {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#hero {
+  width: 100vw;
+  height: 100vh;
+  background: url("images/kohona-village.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1,
+h2 {
+  color: #ffffff;
+  background: #1d3557;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+h2 {
+  background: #457b9d;
+  width: 560px;
+  margin: 0;
+}
+#activities {
+  background: #f1faee;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#listed-activities {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.border {
+  flex: 1;  
+}
+
+#guide {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#guide-wrapper {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  padding: 24px 24px;
+  gap: 8px;
+  background: #a8dadc;
+  border-radius: 10px;
+  border-bottom: 8px solid #1d3557;
+}
+#guide-img {
+  width: 180px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
